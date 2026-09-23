@@ -13,13 +13,6 @@ import yaml
 with open('Network_Automation_config.json','r') as json_file:
     ourjson = json.load(json_file)
 
-#print(ourjson)
-#print("The access token is: {}".format(ourjson['api_token']))
-#print("The token expires in {} seconds.".format(ourjson['expires_in']))
-
-#print("\n\n---")
-#print(yaml.dump(ourjson))
-
 #Requirement 1 stores data of at least 8 devices
 network_inventory = [
     #index 0
